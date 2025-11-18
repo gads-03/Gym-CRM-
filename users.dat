@@ -1,0 +1,6 @@
+User 1001 John Doe admin@example.com
+Trainer:  2001 Sarah Johnson john@example.com
+Trainer:  2002 Mike Smith sarah@example.com
+Client 3001 Alice Brown alice@example.com 49.99 2 2001 0 0 1748891325 1751483325
+Client 3002 Bob Wilson bob@example.com 29.99 1 -1 0 0 1748891325 1751483325
+Client 3003 Carol White carol@example.com 99.99 3 2002 0 0 1748891325 1751483325
