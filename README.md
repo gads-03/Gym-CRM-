@@ -167,11 +167,11 @@ Key Functions
 Search Functionality
 Generic template-based search with custom predicates:
 ```cpp
-template<typename T>\
-std::vector<std::shared_ptr<T>> search(\
-    const std::vector<std::shared_ptr<T>>& collection,\
-    Predicate<T> predicate,\
-    const std::string& searchTerm)\
+template<typename T>
+std::vector<std::shared_ptr<T>> search(
+    const std::vector<std::shared_ptr<T>>& collection,
+    Predicate<T> predicate,
+    const std::string& searchTerm)
 ```
 Sorting Options
 - Sort clients by name (alphabetical)
