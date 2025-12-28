@@ -57,7 +57,7 @@ Reporting System
 System Architecture
 
 Class Hierarchy
-
+```
 User (base class)
 ├── Client
 ├── Trainer
@@ -68,7 +68,7 @@ Additional Classes:
 - MembershipPlan
 - Transaction
 - FitnessCRM (main system controller)
-
+```
 Key Design Patterns
 - Inheritance: User base class with specialized derived classes
 - Composition: FitnessCRM aggregates multiple entity types
