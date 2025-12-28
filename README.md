@@ -93,11 +93,13 @@ Dependencies
 Installation & Compilation
 
 Compilation
+```bash
 g++ -std= c++11 -o fitness_crm main.cpp User.cpp Client.cpp Trainer.cpp Cashier.cpp Class.cpp MembershipPlan.cpp Transaction.cpp FitnessCRM.cpp
-
+```
 Running the Application
+```bash
 ./fitness_crm
-
+```
 Usage
 
 Initial Login
@@ -164,13 +166,13 @@ Key Functions
 
 Search Functionality
 Generic template-based search with custom predicates:
-
-template<typename T>
-std::vector<std::shared_ptr<T>> search(
-    const std::vector<std::shared_ptr<T>>& collection,
-    Predicate<T> predicate,
-    const std::string& searchTerm)
-
+```cpp
+template<typename T>\
+std::vector<std::shared_ptr<T>> search(\
+    const std::vector<std::shared_ptr<T>>& collection,\
+    Predicate<T> predicate,\
+    const std::string& searchTerm)\
+```
 Sorting Options
 - Sort clients by name (alphabetical)
 - Sort clients by ID (numerical)
